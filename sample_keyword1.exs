@@ -9,4 +9,5 @@ defmodule Main do
 end
 
 Main.match [kind: :Field, arguments: ["a", "b", "c"], extra: "extra"]
+Main.match [abc: 0, kind: :Field, arguments: ["a", "b", "c"], extra: "extra"]
 Main.match %{kind: :Field}
