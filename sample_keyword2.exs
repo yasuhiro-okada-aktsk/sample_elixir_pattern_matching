@@ -1,6 +1,6 @@
 defmodule Main do
-  def match([{:kind, _}, {:arguments, _} | _ = optionals]) do
-    IO.puts "match : #{inspect(optionals)}"
+  def match([{:kind, _}, {:arguments, _} | _ = options]) do
+    IO.puts "match : #{inspect(options)}"
   end
 
   def match(_) do
